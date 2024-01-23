@@ -1,0 +1,157 @@
+new styling for journal entries
+#create-journal-entry-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+#create-journal-entry-form h2 {
+    margin-bottom: 20px;
+}
+
+#create-journal-entry-form input[type="text"], #create-journal-entry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#create-journal-entry-form button {
+    align-self: flex-end;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#journal-entry-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.journal-entry-item {
+    border: 1px solid #ccc;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.delete-journal-entry-button {
+    background-color: #f44336; 
+    color: white;
+    padding: 10px 24px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    opacity: 0.9;
+    border-radius: 4px;
+    float: right;
+}
+
+.delete-journal-entry-button:hover {
+    opacity:1;
+}
+
+#journal-entriess {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+
+
+.parent-div {
+    max-height: 90vh;
+    overflow-x: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-right: -60%;
+}
+
+#journal-entry {
+    margin-top: 40px;
+}
+
+.entry-title, .entry-text {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entry-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#drop-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    padding: 70px;
+    color: #ccc;
+}
+
+.entry-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#journal-entriess {
+    max-height: 70vh;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.task-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
